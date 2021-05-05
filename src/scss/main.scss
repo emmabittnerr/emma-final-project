@@ -22,6 +22,21 @@
 @import "nav";
 @import "jumbotron";
 
-h3 {
-  font-size: 1.5rem;
+.container {
+  h1{
+  font-size: 75px;
+  text-align: center;
+  font-family: 'Metal Mania', cursive; 
+  }
+  h2 {
+  font-size: 35px;
+  text-align: center;
+  font-family: 'Metal Mania', cursive;
+  }
+  p{
+  font-size: 15px;
+  text-align: center;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  margin-bottom: 20px;
+  }
 }
