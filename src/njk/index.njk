@@ -5,11 +5,12 @@
 {% block page_description %}Learn about the band Queen.{% endblock %}
 
 {% block content %}
+<body>
 <div class="container">
   <h1>Queen</h1>
-  <p>British rock band, Queen, formed in 1970 in the heart of London, is known for their fusion of heavy metal and glam rock music. Over 50 years and 15 studio albums later this iconic band's legacy lives on. I wish I knew more about this band, I didn't even see the movie that won all the awards, but at least I have listened to them before class every day this semester. I'll go back and update this im sure.</p>
+  <h3>British rock band, Queen, formed in 1970 in the heart of London, is known for their fusion of heavy metal and glam rock music. Over 50 years and 15 studio albums later this iconic band's legacy lives on. I wish I knew more about this band, I didn't even see the movie that won all the awards, but at least I have listened to them before class every day this semester. I'll go back and update this im sure.</h3>
   <h2>Meet the Band</h2>
-  <p>The four founding members of Queen have a vast history of their own. Find out the the truth behind Freddie, Brian, Roger and John.</p>
+  <h3>The four founding members of Queen have a vast history of their own. Find out the the truth behind Freddie, Brian, Roger and John.</h3>
   <div class="row">
     {% for member in queen.members %}
       <div class="col-sm-6 col-lg-3">
@@ -17,14 +18,14 @@
           <img src="img/members/{{ member.image }}" alt="{{ member.name }}" class="card-img-top">
           <div class="card-body">
             <h5 class="card-title"><a href="members/{{ member.slug }}.html">{{ member.name }}</a></h5>
-            <p class="card-text"> {{ member.instruments }}</p>
+            {# <p class="card-text"> {{ member.instruments }}</p> #}
           </div>
         </div>
       </div>
     {% endfor %}
   </div>
   <h2> See Queen Live on Tour</h2>
-  <p>Upcoming Tour Dates</p>
+  <h3>Upcoming Tour Dates</h3>
   <table class="table table-striped">
     <thead>
       <tr>
@@ -45,4 +46,5 @@
   </table>
 </div>
 {% endblock %}
+</body>
 {# how do i put the footer below this? #}

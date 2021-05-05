@@ -6,7 +6,7 @@
 {% block content %}
 <article class="container">
   <h1>Queen's Discography</h1>
-  <p>Every single album they every produced - wow.</p>
+  <h3>Every single album they every produced - wow.</h3>
   <div class="row">
   {% for album in queen.discography %}
   <div class="col-sm-6 col-md-4 col-lg-4">
@@ -14,7 +14,7 @@
       <img src="../img/discs/{{album.image}}" alt=" {{ album.title }} album cover" class="card-img-top">
       <div class="card-body text-dark">
         <h5 class="card-title">{{ album.title }} </h5>
-        <p class="card-text">{{ album.year }}</p>
+        <h6 class="card-text">{{ album.year }}</h6>
       </div>
     </div>
   </div>

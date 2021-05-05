@@ -21,22 +21,62 @@
 // Import partials
 @import "nav";
 @import "jumbotron";
+@import "table";
+
 
 .container {
   h1{
   font-size: 75px;
   text-align: center;
   font-family: 'Metal Mania', cursive; 
+  color: red;
   }
   h2 {
   font-size: 35px;
   text-align: center;
   font-family: 'Metal Mania', cursive;
+  margin-top: 20px;
+  color: red;
   }
-  p{
+  h3 {
+    font-size: 15px;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-bottom: 20px;
+    color: white;
+  }
+}
+
+p {
   font-size: 15px;
-  text-align: center;
   font-family: Georgia, 'Times New Roman', Times, serif;
   margin-bottom: 20px;
+  color: white;
   }
+
+  h5{
+    color: lightblue;
+    font-size: 17px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    
+    a{
+      color: white;
+      font-family: 'Metal Mania', cursive;
+      font-size: 25px;
+    }
+  }
+
+  h6{
+    color: white;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+  }
+
+
+  .card {
+    background-color: gray;
+  }
+body {
+  background-color: black;
 }
