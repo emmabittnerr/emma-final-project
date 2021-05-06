@@ -3,6 +3,7 @@
     {
       "slug": "freddie-mercury",
       "name": "Freddie Mercury",
+      "order1": "order-sm-2",
       "instruments": "Vocals, keyboards",
       "tenure": "(1970–1991; his death)",
       "birthplace": "Stone Town, Zanzibar",
@@ -14,6 +15,7 @@
     {
       "slug": "brian-may",
       "name": "Brian May",
+      "order1": "",
       "instruments": "Guitar, keyboards, vocals",
       "tenure": "(1970–present)",
       "birthplace": "Hampton, England",
@@ -25,6 +27,7 @@
     {
       "slug": "roger-taylor",
       "name": "Roger Taylor",
+      "order1": "order-sm-2",
       "instruments": "Drums, guitar, keyboards, vocals",
       "tenure": "(1970–present)",
       "birthplace": "King's Lynn, England",
@@ -36,6 +39,7 @@
     {
       "slug": "john-deacon",
       "name": "John Deacon",
+      "order1": "order-sm-2",
       "instruments": "Bass, guitar, keyboards",
       "tenure": "(1971–1997)",
       "birthplace": "Leicester, England",
@@ -124,133 +128,111 @@
   ],
   "billboard": [
     {
-      "Performer": "Queen",
       "Song": "Another One Bites The Dust",
       "Weeks on chart": 31,
       "Top position": 1
     },
     {
-      "Performer": "Queen",
       "Song": "Crazy Little Thing Called Love",
       "Weeks on chart": 22,
       "Top position": 1
     },
     {
-      "Performer": "Queen",
       "Song": "Bohemian Rhapsody",
       "Weeks on chart": 44,
       "Top position": 2
     },
     {
-      "Performer": "Queen",
       "Song": "We Will Rock You/We Are The Champions",
       "Weeks on chart": 41,
       "Top position": 4
     },
     {
-      "Performer": "Queen",
       "Song": "Body Language",
       "Weeks on chart": 14,
       "Top position": 11
     },
     {
-      "Performer": "Queen",
       "Song": "Killer Queen",
       "Weeks on chart": 19,
       "Top position": 12
     },
     {
-      "Performer": "Queen",
       "Song": "Somebody To Love",
       "Weeks on chart": 15,
       "Top position": 13
     },
     {
-      "Performer": "Queen",
       "Song": "Radio Ga-ga",
       "Weeks on chart": 13,
       "Top position": 16
     },
     {
-      "Performer": "Queen",
       "Song": "You're My Best Friend",
       "Weeks on chart": 16,
       "Top position": 16
     },
     {
-      "Performer": "Queen",
       "Song": "Bicycle Race/Fat Bottomed Girls",
       "Weeks on chart": 12,
       "Top position": 24
     },
     {
-      "Performer": "Queen",
       "Song": "A Kind Of Magic",
       "Weeks on chart": 11,
       "Top position": 42
     },
     {
-      "Performer": "Queen",
       "Song": "Flash's Theme Aka Flash",
       "Weeks on chart": 10,
       "Top position": 42
     },
     {
-      "Performer": "Queen",
       "Song": "Play The Game",
       "Weeks on chart": 9,
       "Top position": 42
     },
     {
-      "Performer": "Queen",
       "Song": "Need Your Loving Tonight",
       "Weeks on chart": 11,
       "Top position": 44
     },
     {
-      "Performer": "Queen",
       "Song": "I Want To Break Free",
       "Weeks on chart": 8,
       "Top position": 45
     },
     {
-      "Performer": "Queen",
       "Song": "Tie Your Mother Down",
       "Weeks on chart": 6,
       "Top position": 49
     },
     {
-      "Performer": "Queen",
       "Song": "I Want It All",
       "Weeks on chart": 10,
       "Top position": 50
     },
     {
-      "Performer": "Queen",
       "Song": "Calling All Girls",
       "Weeks on chart": 6,
       "Top position": 60
     },
     {
-      "Performer": "Queen",
       "Song": "One Vision",
       "Weeks on chart": 10,
       "Top position": 61
     },
     {
-      "Performer": "Queen",
       "Song": "It's A Hard Life",
       "Weeks on chart": 4,
       "Top position": 72
     },
     {
-      "Performer": "Queen",
       "Song": "It's Late",
       "Weeks on chart": 5,
       "Top position": 74
     },
     {
-      "Performer": "Queen",
       "Song": "Don't Stop Me Now",
       "Weeks on chart": 4,
       "Top position": 86
